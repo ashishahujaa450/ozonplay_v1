@@ -1,0 +1,140 @@
+/* helper classes */
+
+.flexible{
+	width: 100%;
+	height: auto;
+	display: table;
+	padding: 1rem 0rem;
+	position: relative;
+}
+
+.my-img-responsive{
+	width: auto;
+	max-width: 100%;
+}
+
+.text-prime{
+	color: #BED7E9;
+}
+/* element styling */
+
+/* header */
+
+.header{
+	margin: 4rem 0rem;
+}
+
+.icon-holder{
+	width: 100%;
+	position: relative;
+	padding: .7rem 1.2rem;
+	height: auto;
+	cursor: pointer;
+	display: table;
+}
+
+/* colored boxes */
+
+.green{
+	background: #71BF47;
+}
+
+.orange{
+	background: #F6993A;
+}
+
+.blue{
+	background: #2DA5DB;
+}
+
+.white{
+	color: white;
+}
+
+/* second row */
+
+.linker-list a{
+	font-size: 16px;
+	padding: 0rem 3px;
+}
+
+
+.seperat span{
+	padding: 8px 14px;
+	border-radius: 100%;
+	background: #2da5db;
+	color: white;
+	font-size: 19px;
+	margin-left: 6px;
+}
+
+.seperat{
+	margin-top: -5px;
+}
+
+.main-banner{
+	background: url('images/banner.png') no-repeat center center;
+	height: 650px;
+	margin-top: 4rem;
+	background-size: cover;
+}
+
+.buttons{
+	position: relative;
+	top: 29rem;
+}
+
+.custom-btn{
+	background: #6FBE44;
+	color: white;
+	position: relative;
+	border: none;
+	font-size: 18px;
+	border-radius: 0px;
+	font-weight: 800;
+	left: 44%;
+	top: 170px;
+	transition: .2s all ease; 
+}
+
+.custom-btn:hover{
+	background: #528F31;
+	color: white;
+}
+
+.content{
+	height: 550px;
+}
+
+.custom-col{
+	padding: 17rem 0rem 0rem 4rem;
+	background: url('images/bg.png') no-repeat center center;
+	height: 470px;
+
+	background-size: 100% 100%;
+}
+
+.custom-col p.lead{
+	margin-left: 2rem;
+	font-weight: normal;
+}
+
+/* footer */
+
+
+.footer{
+	background: #4E616D;
+}
+
+.footer p.lead{
+	font-weight: 100;
+}
+
+.footer p.lead > i{
+	font-size: 40px;
+vertical-align: middle;
+}
+
+#sep{
+	margin-left: 46px;
+}
