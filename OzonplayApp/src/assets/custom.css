@@ -138,3 +138,26 @@ vertical-align: middle;
 #sep{
 	margin-left: 46px;
 }
+
+/*==============================		event register page
+============================*/
+
+.arrow{
+	margin-top: 2.5rem;
+}
+
+.btn-form .btn{
+background: #6FBE44;
+color: white;
+position: relative;
+border: none;
+font-size: 18px;
+border-radius: 0px;
+font-weight: 800;
+transition: .2s all ease;
+}
+
+.register-event{
+	margin-bottom: 3rem;
+	margin-top: 3rem;
+}
