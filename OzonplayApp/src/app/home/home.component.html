@@ -2,20 +2,20 @@
   <!--slider-->
 
 	<section class="flexible">
-		<section class="main-banner flexible">
+		<section class="main-banner flexible" #slider (window:resize)="sliderObj.updateSize()">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-xs-12">
 						<div class="buttons">
-							<a href="#"><img src="../../assets/images/left-game.png" class="my-img-responsive pull-left"></a>
+							<a ><img (click)="sliderObj.leftMove()" src="../../assets/images/left-game.png" class="my-img-responsive pull-left"></a>
 
-							<a href="#"><img src="../../assets/images/right-btn.png" class="my-img-responsive pull-right"></a>
+							<a ><img (click)="sliderObj.rightMove()" src="../../assets/images/right-btn.png" class="my-img-responsive pull-right"></a>
 
 							<div class="clearfix"></div>
 
 							<a routerLink="eventregister" class="btn btn-default custom-btn">Register Now</a>
 						</div>
-					</div><!--end col xs12-->	
+					</div><!--end col xs12-->
 				</div><!--end row-->
 			</div><!--end container-->
 	</section><!--end main banner-->
@@ -31,12 +31,6 @@
 		</div><!--end container-->
 	</section><!--end content section-->
 	</section>
-
-  <!-- my loc is src/app/home/homecomponent.html
-
-  all custom css->src/assets
-  bootstrap and external css libs->src/assets/css
-  jquery and external js libs->src/assets/js -->
 
 
 

@@ -11,6 +11,7 @@ import { SignupComponent } from './signup/signup.component';
 import { LoginComponent } from './login/login.component';
 import { EventregisterComponent } from './eventregister/eventregister.component';
 import { SchedulesComponent } from './schedules/schedules.component';
+import { UserregisterComponent } from './signup/userregister/userregister.component';
 
 
 const appRoutes: Routes = [
@@ -36,7 +37,13 @@ const appRoutes: Routes = [
   },
   {
     path: 'signup',
-    component: SignupComponent
+    component: SignupComponent,
+    children: [
+      {
+        path: ':type',
+        component: UserregisterComponent
+      }
+    ]
   },
   {
     path: 'login',
@@ -62,7 +69,8 @@ const appRoutes: Routes = [
     SchedulesComponent,
     SignupComponent,
     LoginComponent,
-    EventregisterComponent
+    EventregisterComponent,
+    UserregisterComponent
   ],
   imports: [
     BrowserModule,
