@@ -97,6 +97,9 @@ a{
 	position: relative;
 	top: 29rem;
 }
+.buttons img {
+  cursor: pointer;
+}
 
 .custom-btn{
 	background: #6FBE44;
