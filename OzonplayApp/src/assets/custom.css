@@ -178,3 +178,62 @@ transition: .2s all ease;
 	margin-bottom: 3rem;
 	margin-top: 3rem;
 }
+
+/*=============================
+		sign up page
+==============================*/
+
+.custom-table thead th{
+	background: #F79838;
+	color: white;
+	font-size: 20px;
+	border-bottom: none;
+}
+
+.custom-table{
+	transition: .1s all ease;
+
+}
+
+.custom-table:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.custom-table td{
+	text-align: center;
+	border-color: black !important;
+}
+
+.custom-table .t-blank{
+	padding-top: 0px !important;
+	border: none;
+	padding-bottom: 3px !important;
+}
+
+.custom-table .t-head{
+	background: #F79838;
+	border: none;
+	color: white;
+	font-size: 41px;
+
+}
+
+.t-btn{
+	background: #6FBD44;
+	color: white;
+	border-radius: 0px;
+	border: none;
+	font-weight: 800;
+}
+
+/*=============================
+		user register 
+============================*/
+
+.quote-holder img{
+	vertical-align: middle;
+	margin-top: -6px;
+	margin-right: 15px;
+}
+
