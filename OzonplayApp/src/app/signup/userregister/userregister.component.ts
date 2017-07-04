@@ -12,7 +12,7 @@ export class UserregisterComponent implements OnInit {
   public pkg:any = {
     "free":"0$ Free",
     "lite":"5$ Lite 1 Month",
-    "sliver":"15$ Sliver 3 Months",
+    "silver":"15$ Sliver 3 Months",
     "gold":"25$ Gold 12 Months"
   };
 
