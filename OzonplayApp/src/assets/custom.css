@@ -141,6 +141,11 @@ a{
 
 .footer{
 	background: #4E616D;
+
+}
+
+.high{
+	height: 100vh;
 }
 
 .footer p.lead{
@@ -156,12 +161,6 @@ vertical-align: middle;
 	margin-left: 46px;
 }
 
-.main-container{
-	width: 100%;
-	height: auto;
-	display: table;
-	position: relative;
-}
 
 /*==============================		event register page
 ============================*/
@@ -235,7 +234,7 @@ transition: .2s all ease;
 }
 
 /*=============================
-		user register 
+		user register
 ============================*/
 
 .quote-holder img{
