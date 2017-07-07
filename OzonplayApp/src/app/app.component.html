@@ -1,4 +1,5 @@
-<header class="header flexible">
+<section class="main-container">
+  <header class="header flexible">
   <div class="container">
     <div class="row">
 
@@ -116,9 +117,12 @@
   <div class="clearfix"></div>
 </header><!--end header-->
 
-<router-outlet></router-outlet>
+ <div class="main-container">
+    <router-outlet></router-outlet>
+ </div>
 
-<footer class="footer flexible text-capitalize">
+
+<footer class="footer flexible text-capitalize" id="footer">
   <div class="container">
     <div class="row">
       <div class="col-md-3 text-left">
@@ -171,3 +175,4 @@
     </div><!--end row-->
   </div><!--end container-->
 </footer><!--end footer-->
+</section>

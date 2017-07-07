@@ -156,6 +156,13 @@ vertical-align: middle;
 	margin-left: 46px;
 }
 
+.main-container{
+	width: 100%;
+	height: auto;
+	display: table;
+	position: relative;
+}
+
 /*==============================		event register page
 ============================*/
 
