@@ -38,12 +38,10 @@ const appRoutes: Routes = [
   {
     path: 'signup',
     component: SignupComponent,
-    children: [
-      {
-        path: ':type',
-        component: UserregisterComponent
-      }
-    ]
+  },
+  {
+    path: 'userregister/:type',
+    component: UserregisterComponent
   },
   {
     path: 'login',
@@ -68,9 +66,9 @@ const appRoutes: Routes = [
     ScoreboardComponent,
     SchedulesComponent,
     SignupComponent,
+    UserregisterComponent,
     LoginComponent,
-    EventregisterComponent,
-    UserregisterComponent
+    EventregisterComponent
   ],
   imports: [
     BrowserModule,
