@@ -141,6 +141,11 @@ a{
 
 .footer{
 	background: #4E616D;
+
+}
+
+.high{
+	height: 100vh;
 }
 
 .footer p.lead{
@@ -155,6 +160,7 @@ vertical-align: middle;
 #sep{
 	margin-left: 46px;
 }
+
 
 /*==============================		event register page
 ============================*/
